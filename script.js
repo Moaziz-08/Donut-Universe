@@ -25,3 +25,13 @@ window.addEventListener('scroll', () => {
     logo.style.transform = `rotate(${window.scrollY / 10}deg)`;
     
 });
+// Hamburger Menu Toggle
+document.addEventListener('DOMContentLoaded', () => {
+    const navToggle = document.querySelector('.nav-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+
+    navToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        navToggle.classList.toggle('active');
+    });
+});
