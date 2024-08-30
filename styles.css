@@ -62,7 +62,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('parallax-donut-right.png');
+    background-image: url('parallax-donut-left.png');
     background-size: cover;
     background-position: center;
     position: relative;
